@@ -26,6 +26,10 @@ import {
 import {
   InstantBinConfirmSettings,
 } from './instant-bin-confirm';
+
+import {
+  EnhanceOverralUiSettings,
+} from './enhance-overral-ui';
 /*
 import {
   ClubInfoSettings,
@@ -80,6 +84,8 @@ services.Authentication._oAuthentication.observe(
 
     settings.registerEntry(new FutbinSettings());
     settings.registerEntry(new InstantBinConfirmSettings());
+
+    settings.registerEntry(new EnhanceOverralUiSettings());
 
     initSettingsScreen(settings);
   },
